@@ -1,0 +1,153 @@
+======================================================================
+Ilia Topuria vs Justin Gaethje  (5-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Topuria 80.1% / Gaethje 19.9%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Topuria ML                       model= 80.1%  implied= 84.0%  edge= -3.9pp  EV/$1=-0.046  @ -525
+  Gaethje ML                       model= 19.9%  implied= 20.8%  edge= -1.0pp  EV/$1=-0.046  @ +380
+
+Layer 2 (research tilt: Topuria 17-0, on a 9-fight UFC win streak with 3 consecutive finishes of former/current champs (Volkanovski, Holloway, Oliveira); Gaethje is 0-2 in undisputed title fights and dealing with fight-week personal-life distractions)
+  Model win prob: Topuria 82.1% / Gaethje 17.9%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Topuria ML                       model= 82.1%  implied= 84.0%  edge= -1.9pp  EV/$1=-0.022  @ -525
+  Gaethje ML                       model= 17.9%  implied= 20.8%  edge= -3.0pp  EV/$1=-0.142  @ +380
+
+  -- Topuria method/prop odds (Layer 2 scales Layer 1 by x1.025) --
+  Topuria by KO/TKO                model= 69.4%  implied= 67.7%  edge= +1.7pp  EV/$1=+0.025  @ -210
+
+  -- Gaethje method/prop odds (Layer 2 scales Layer 1 by x0.899) --
+  Gaethje by KO/TKO                model= 13.8%  implied= 15.4%  edge= -1.5pp  EV/$1=-0.101  @ +550
+
+  -- Fight Distance (Layer 2 tilt: Topuria's recent finishing rate vs elite competition suggests the -1200 'ends inside distance' price may be slightly conservative) --
+  Layer 1: Goes the distance 7.7% / Ends inside distance 92.3%
+  Layer 2: Goes the distance 6.0% / Ends inside distance 94.0%
+  Ends inside distance             model= 94.0%  implied= 92.3%  edge= +1.7pp  EV/$1=+0.018  @ -1200
+  Fair odds -> Goes the distance: +1569  /  Ends inside distance: -1569
+
+======================================================================
+Alex Pereira vs Ciryl Gane  (5-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Pereira 50.0% / Gane 50.0%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Pereira ML                       model= 50.0%  implied= 52.4%  edge= -2.4pp  EV/$1=-0.045  @ -110
+  Gane ML                          model= 50.0%  implied= 52.4%  edge= -2.4pp  EV/$1=-0.045  @ -110
+
+Layer 2 (research tilt: Pereira (38) is moving up two weight classes to heavyweight for the first time against a younger, technically sharper Gane who profiles well over 5 rounds; market already pick'em so this is a small lean only)
+  Model win prob: Pereira 48.0% / Gane 52.0%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Pereira ML                       model= 48.0%  implied= 52.4%  edge= -4.4pp  EV/$1=-0.084  @ -110
+  Gane ML                          model= 52.0%  implied= 52.4%  edge= -0.4pp  EV/$1=-0.007  @ -110
+
+  -- Pereira method/prop odds (Layer 2 scales Layer 1 by x0.960) --
+  Pereira by KO/TKO                model= 40.0%  implied= 41.7%  edge= -1.7pp  EV/$1=-0.040  @ +140
+
+  -- Gane method/prop odds (Layer 2 scales Layer 1 by x1.040) --
+  Gane by Decision                 model= 27.7%  implied= 26.7%  edge= +1.1pp  EV/$1=+0.040  @ +275
+
+======================================================================
+Sean O'Malley vs Aiemann Zahabi  (3-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): O'Malley 76.9% / Zahabi 23.1%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  O'Malley ML                      model= 76.9%  implied= 81.1%  edge= -4.2pp  EV/$1=-0.052  @ -430
+  Zahabi ML                        model= 23.1%  implied= 24.4%  edge= -1.3pp  EV/$1=-0.052  @ +310
+
+Layer 2 (research tilt: O'Malley is 2 fights removed from major hip-labrum surgery; Zahabi's elite defensive profile (~69% sig-strike defense) is well-suited to neutralize a length/reach-based gameplan)
+  Model win prob: O'Malley 74.9% / Zahabi 25.1%
+  -- Moneyline edge vs quoted (Layer 2) --
+  O'Malley ML                      model= 74.9%  implied= 81.1%  edge= -6.2pp  EV/$1=-0.077  @ -430
+  Zahabi ML                        model= 25.1%  implied= 24.4%  edge= +0.7pp  EV/$1=+0.030  @ +310
+
+  -- O'Malley method/prop odds (Layer 2 scales Layer 1 by x0.974) --
+  O'Malley by Decision             model= 48.7%  implied= 50.0%  edge= -1.3pp  EV/$1=-0.026  @ +100
+  O'Malley by KO/TKO               model= 34.2%  implied= 35.1%  edge= -0.9pp  EV/$1=-0.026  @ +185
+
+  -- Zahabi method/prop odds (Layer 2 scales Layer 1 by x1.087) --
+  Zahabi by Decision               model= 18.1%  implied= 16.7%  edge= +1.4pp  EV/$1=+0.087  @ +500
+
+  -- Fight Distance (Layer 2 tilt: Zahabi's airtight defense + O'Malley's likely points-based approach post-surgery argue for a longer fight than -160 implies) --
+  Layer 1: Goes the distance 61.5% / Ends inside distance 38.5%
+  Layer 2: Goes the distance 66.5% / Ends inside distance 33.5%
+  Goes the distance                model= 66.5%  implied= 61.5%  edge= +5.0pp  EV/$1=+0.081  @ -160
+  Fair odds -> Goes the distance: -199  /  Ends inside distance: +199
+
+======================================================================
+Derrick Lewis vs Josh Hokit  (3-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Lewis 22.7% / Hokit 77.3%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Lewis ML                         model= 22.7%  implied= 23.8%  edge= -1.1pp  EV/$1=-0.047  @ +320
+  Hokit ML                         model= 77.3%  implied= 81.1%  edge= -3.8pp  EV/$1=-0.047  @ -430
+
+Layer 2 (research tilt: Hokit fought a brutal 15-min war with Blaydes just 64 days ago, is managing an ongoing hand injury that forced a style change, and had a concerning pre-fight illness/weigh-in incident; Lewis's only path (a round-1 power shot) matters more than the market price suggests)
+  Model win prob: Lewis 29.7% / Hokit 70.3%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Lewis ML                         model= 29.7%  implied= 23.8%  edge= +5.9pp  EV/$1=+0.247  @ +320
+  Hokit ML                         model= 70.3%  implied= 81.1%  edge=-10.8pp  EV/$1=-0.133  @ -430
+
+======================================================================
+Mauricio Ruffy vs Michael Chandler  (3-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Ruffy 82.0% / Chandler 18.0%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Ruffy ML                         model= 82.0%  implied= 86.1%  edge= -4.1pp  EV/$1=-0.047  @ -620
+  Chandler ML                      model= 18.0%  implied= 18.9%  edge= -0.9pp  EV/$1=-0.047  @ +430
+
+Layer 2 (research tilt: Research confirms the market: Ruffy in career-best form (12/13 wins by KO, latest a 2nd-round stoppage of Fiziev) vs a 40-year-old Chandler on a 3-fight skid with retirement on the line - no contrarian edge vs the price itself)
+  Model win prob: Ruffy 82.0% / Chandler 18.0%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Ruffy ML                         model= 82.0%  implied= 86.1%  edge= -4.1pp  EV/$1=-0.047  @ -620
+  Chandler ML                      model= 18.0%  implied= 18.9%  edge= -0.9pp  EV/$1=-0.047  @ +430
+
+  -- Ruffy method/prop odds (Layer 2 scales Layer 1 by x1.000) --
+  Ruffy by KO/TKO/DQ               model= 71.4%  implied= 71.4%  edge= +0.0pp  EV/$1=+0.000  @ -250
+  Ruffy Round 1 win (any method)   model= 43.5%  implied= 43.5%  edge= +0.0pp  EV/$1=-0.000  @ +130
+
+======================================================================
+Bo Nickal vs Kyle Daukaus  (3-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Nickal 74.5% / Daukaus 25.5%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Nickal ML                        model= 74.5%  implied= 77.8%  edge= -3.3pp  EV/$1=-0.043  @ -350
+  Daukaus ML                       model= 25.5%  implied= 26.7%  edge= -1.1pp  EV/$1=-0.043  @ +275
+
+Layer 2 (research tilt: No strong contrarian read on the win probability itself - Nickal's wrestling pedigree vs a durable, late-add underdog looks fairly priced)
+  Model win prob: Nickal 74.5% / Daukaus 25.5%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Nickal ML                        model= 74.5%  implied= 77.8%  edge= -3.3pp  EV/$1=-0.043  @ -350
+  Daukaus ML                       model= 25.5%  implied= 26.7%  edge= -1.1pp  EV/$1=-0.043  @ +275
+
+  -- Nickal method/prop odds (Layer 2 scales Layer 1 by x1.000) --
+  Nickal by KO/TKO                 model= 34.5%  implied= 34.5%  edge= +0.0pp  EV/$1=+0.000  @ +190
+  Nickal by Decision               model= 25.6%  implied= 25.6%  edge= +0.0pp  EV/$1=-0.000  @ +290
+
+  -- Daukaus method/prop odds (Layer 2 scales Layer 1 by x1.000) --
+  Daukaus Round 1 finish           model= 12.5%  implied= 12.5%  edge= +0.0pp  EV/$1=+0.000  @ +700
+
+  -- Total Rounds (Layer 2 tilt: Daukaus's last two UFC wins both ended in under a minute, and Nickal's own method odds favor a finish (KO/TKO +190) over a decision (+290) - both point toward an earlier finish than the -165 Over 1.5 price implies) --
+  Layer 1: Over 1.5 rounds 58.9% / Under 1.5 rounds 41.1%
+  Layer 2: Over 1.5 rounds 53.9% / Under 1.5 rounds 46.1%
+  Over 1.5 rounds                  model= 53.9%  implied= 62.3%  edge= -8.4pp  EV/$1=-0.135  @ -165
+  Under 1.5 rounds                 model= 46.1%  implied= 43.5%  edge= +2.6pp  EV/$1=+0.061  @ +130
+  Fair odds -> Over 1.5 rounds: -117  /  Under 1.5 rounds: +117
+
+======================================================================
+Diego Lopes vs Steve Garcia  (3-round fight)
+======================================================================
+Layer 1 (de-vigged moneyline): Lopes 57.4% / Garcia 42.6%
+  -- Moneyline edge vs quoted (Layer 1; near-zero = just the vig) --
+  Lopes ML                         model= 57.4%  implied= 60.0%  edge= -2.6pp  EV/$1=-0.043  @ -150
+  Garcia ML                        model= 42.6%  implied= 44.4%  edge= -1.9pp  EV/$1=-0.043  @ +125
+
+Layer 2 (research tilt: Lopes is 1-2 in his last 3 (incl. a title loss), recovering from a foot fracture (wore a boot), and carried extra fatigue as the card's backup fighter (double weigh-in); Garcia is on a 7-fight win streak with 6 KOs in his last 7 and has never been finished in the UFC)
+  Model win prob: Lopes 52.9% / Garcia 47.1%
+  -- Moneyline edge vs quoted (Layer 2) --
+  Lopes ML                         model= 52.9%  implied= 60.0%  edge= -7.1pp  EV/$1=-0.118  @ -150
+  Garcia ML                        model= 47.1%  implied= 44.4%  edge= +2.6pp  EV/$1=+0.059  @ +125
+
+  -- Total Rounds (Layer 2 tilt: Lopes himself says he's '100%' this won't go the distance, and Garcia's ~70% finish rate supports an earlier finish than the -140 Over 1.5 price implies) --
+  Layer 1: Over 1.5 rounds 58.3% / Under 1.5 rounds 41.7%
+  Layer 2: Over 1.5 rounds 54.3% / Under 1.5 rounds 45.7%
+  Over 1.5 rounds                  model= 54.3%  implied= 58.3%  edge= -4.0pp  EV/$1=-0.069  @ -140
+  Fair odds -> Over 1.5 rounds: -119  /  Under 1.5 rounds: +119
+
