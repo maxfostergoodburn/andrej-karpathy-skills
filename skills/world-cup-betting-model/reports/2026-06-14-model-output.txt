@@ -1,0 +1,230 @@
+======================================================================
+Germany vs Curacao
+======================================================================
+Layer 1 (market-calibrated): lambda=4.00, mu=0.55
+  Model 1X2: home 92.8% / draw 5.6% / away 1.6%
+  De-vig mkt 1X2: home 93.0% / draw 5.2% / away 1.9%
+  Model O/U 4.5: over 47.6% / under 52.4%
+  Model BTTS: yes 41.8% / no 58.2%
+
+  -- Edges vs quoted odds (Layer 1) --
+  home               model= 92.8%  implied= 97.9%  edge= -5.1pp  EV/$1=-0.052  @ -4762
+  draw               model=  5.6%  implied=  5.5%  edge= +0.1pp  EV/$1=+0.025  @ +1733
+  away               model=  1.6%  implied=  2.0%  edge= -0.4pp  EV/$1=-0.184  @ +5000
+  over_4.5           model= 47.6%  implied= 51.0%  edge= -3.4pp  EV/$1=-0.067  @ -104
+  under_4.5          model= 52.4%  implied= 56.9%  edge= -4.5pp  EV/$1=-0.079  @ -132
+
+Layer 2 (research tilt: Germany 9-game win streak averaging 2.6 GF/game; Curacao scored just 1 goal total across 3 pre-WC losses to Australia/Scotland/China): lambda=4.20, mu=0.50
+  Model 1X2: home 94.3% / draw 4.5% / away 1.1%
+  Model O/U 4.5: over 50.2% / under 49.8%
+  Model BTTS: yes 38.7% / no 61.3%
+
+  -- Edges vs quoted odds (Layer 2) --
+  home               model= 94.3%  implied= 97.9%  edge= -3.6pp  EV/$1=-0.037  @ -4762
+  draw               model=  4.5%  implied=  5.5%  edge= -0.9pp  EV/$1=-0.168  @ +1733
+  away               model=  1.1%  implied=  2.0%  edge= -0.8pp  EV/$1=-0.418  @ +5000
+  over_4.5           model= 50.2%  implied= 51.0%  edge= -0.7pp  EV/$1=-0.014  @ -104
+  under_4.5          model= 49.8%  implied= 56.9%  edge= -7.1pp  EV/$1=-0.126  @ -132
+
+  -- Layer 2: fair-value menu (model prob -> fair American odds) --
+  Germany ML: 94.3% -> -1661
+  Draw:         4.5% -> +2104
+  Curacao ML: 1.1% -> +8667
+  DC Germany/Draw: 98.9% -> -8667
+  DC Curacao/Draw: 5.7% -> +1661
+  DC Germany/Curacao: 95.5% -> -2104
+  Over/Under 1.5: 95.0% / 5.0% -> -1901 / +1901
+  Over/Under 2.5: 84.7% / 15.3% -> -552 / +552
+  Over/Under 3.5: 68.8% / 31.2% -> -221 / +221
+  Over/Under 4.5: 50.2% / 49.8% -> -101 / +101
+  Over/Under 5.5: 32.8% / 67.2% -> +205 / -205
+  BTTS Yes/No: 38.7% / 61.3% -> +159 / -159
+  Germany team total Over 0.5: 98.5% -> -6541
+  Germany team total Over 1.5: 92.2% -> -1177
+  Germany team total Over 2.5: 78.9% -> -374
+  Germany team total Over 3.5: 60.3% -> -152
+  Curacao team total Over 0.5: 39.0% -> +156
+  Curacao team total Over 1.5: 8.9% -> +1028
+  Curacao team total Over 2.5: 1.4% -> +7037
+  Curacao team total Over 3.5: 0.2% -> +59099
+  Germany handicap -2.5: 69.6% -> -229
+  Germany handicap -1.5: 85.0% -> -568
+  Germany handicap -0.5: 94.3% -> -1661
+  Germany handicap 0.5: 98.9% -> -8667
+  Germany handicap 1.5: 99.8% -> -40237
+  Top 5 correct scores: 4-0 (11.9%), 3-0 (11.3%), 5-0 (10.0%), 2-0 (8.1%), 6-0 (7.0%)
+
+======================================================================
+Netherlands vs Japan
+======================================================================
+Layer 1 (market-calibrated): lambda=1.60, mu=1.10
+  Model 1X2: home 47.5% / draw 27.7% / away 24.7%
+  De-vig mkt 1X2: home 47.7% / draw 26.5% / away 25.9%
+  Model O/U 2.5: over 50.6% / under 49.4%
+  Model BTTS: yes 54.7% / no 45.3%
+
+  -- Edges vs quoted odds (Layer 1) --
+  home               model= 47.5%  implied= 51.5%  edge= -3.9pp  EV/$1=-0.076  @ -106
+  draw               model= 27.7%  implied= 28.6%  edge= -0.8pp  EV/$1=-0.029  @ +250
+  away               model= 24.7%  implied= 27.9%  edge= -3.2pp  EV/$1=-0.115  @ +258
+  over_2.5           model= 50.6%  implied= 53.7%  edge= -3.1pp  EV/$1=-0.057  @ -116
+  under_2.5          model= 49.4%  implied= 54.3%  edge= -5.0pp  EV/$1=-0.092  @ -119
+  btts_yes           model= 54.7%  implied= 56.3%  edge= -1.7pp  EV/$1=-0.030  @ -129
+
+Layer 2 (research tilt: Both teams missing starting defensive pieces (NED: Timber, de Ligt out; JPN: captain/DM Endo ruled out days before kickoff)): lambda=1.70, mu=1.14
+  Model 1X2: home 48.9% / draw 26.7% / away 24.3%
+  Model O/U 2.5: over 54.0% / under 46.0%
+  Model BTTS: yes 57.0% / no 43.0%
+
+  -- Edges vs quoted odds (Layer 2) --
+  home               model= 48.9%  implied= 51.5%  edge= -2.5pp  EV/$1=-0.049  @ -106
+  draw               model= 26.7%  implied= 28.6%  edge= -1.8pp  EV/$1=-0.064  @ +250
+  away               model= 24.3%  implied= 27.9%  edge= -3.6pp  EV/$1=-0.129  @ +258
+  over_2.5           model= 54.0%  implied= 53.7%  edge= +0.3pp  EV/$1=+0.006  @ -116
+  under_2.5          model= 46.0%  implied= 54.3%  edge= -8.3pp  EV/$1=-0.153  @ -119
+  btts_yes           model= 57.0%  implied= 56.3%  edge= +0.7pp  EV/$1=+0.012  @ -129
+
+  -- Layer 2: fair-value menu (model prob -> fair American odds) --
+  Netherlands ML: 48.9% -> +104
+  Draw:         26.7% -> +274
+  Japan ML: 24.3% -> +311
+  DC Netherlands/Draw: 75.7% -> -311
+  DC Japan/Draw: 51.1% -> -104
+  DC Netherlands/Japan: 73.3% -> -274
+  Over/Under 1.5: 78.9% / 21.1% -> -374 / +374
+  Over/Under 2.5: 54.0% / 46.0% -> -117 / +117
+  Over/Under 3.5: 31.7% / 68.3% -> +215 / -215
+  Over/Under 4.5: 15.9% / 84.1% -> +530 / -530
+  Over/Under 5.5: 6.9% / 93.1% -> +1357 / -1357
+  BTTS Yes/No: 57.0% / 43.0% -> -133 / +133
+  Netherlands team total Over 0.5: 81.7% -> -445
+  Netherlands team total Over 1.5: 50.6% -> -102
+  Netherlands team total Over 2.5: 24.2% -> +314
+  Netherlands team total Over 3.5: 9.3% -> +980
+  Japan team total Over 0.5: 68.1% -> -214
+  Japan team total Over 1.5: 31.7% -> +215
+  Japan team total Over 2.5: 10.9% -> +821
+  Japan team total Over 3.5: 2.9% -> +3335
+  Netherlands handicap -2.5: 11.8% -> +751
+  Netherlands handicap -1.5: 27.1% -> +269
+  Netherlands handicap -0.5: 48.9% -> +104
+  Netherlands handicap 0.5: 75.7% -> -311
+  Netherlands handicap 1.5: 89.9% -> -894
+  Top 5 correct scores: 1-1 (12.7%), 2-1 (9.6%), 1-0 (8.5%), 2-0 (8.4%), 0-0 (7.2%)
+
+======================================================================
+Ivory Coast vs Ecuador
+======================================================================
+Layer 1 (market-calibrated): lambda=0.85, mu=1.10
+  Model 1X2: home 26.3% / draw 34.2% / away 39.5%
+  De-vig mkt 1X2: home 26.5% / draw 34.0% / away 39.5%
+  Model O/U 2.5: over 31.0% / under 69.0%
+  Model BTTS: yes 39.8% / no 60.2%
+
+  -- Edges vs quoted odds (Layer 1) --
+  home               model= 26.3%  implied= 27.4%  edge= -1.1pp  EV/$1=-0.039  @ +265
+  draw               model= 34.2%  implied= 35.1%  edge= -0.9pp  EV/$1=-0.026  @ +185
+  away               model= 39.5%  implied= 40.8%  edge= -1.3pp  EV/$1=-0.032  @ +145
+  over_2.5           model= 31.0%  implied= 33.3%  edge= -2.4pp  EV/$1=-0.071  @ +200
+  under_2.5          model= 69.0%  implied= 71.4%  edge= -2.4pp  EV/$1=-0.034  @ -250
+  btts_no            model= 60.2%  implied= 61.7%  edge= -1.5pp  EV/$1=-0.024  @ -161
+
+Layer 2 (research tilt: Both elite defensively: Ecuador conceded 5 goals in 18 qualifiers (13 clean sheets); Ivory Coast kept clean sheets throughout qualifying): lambda=0.78, mu=1.01
+  Model 1X2: home 25.8% / draw 35.8% / away 38.4%
+  Model O/U 2.5: over 26.8% / under 73.2%
+  Model BTTS: yes 36.1% / no 63.9%
+
+  -- Edges vs quoted odds (Layer 2) --
+  home               model= 25.8%  implied= 27.4%  edge= -1.6pp  EV/$1=-0.057  @ +265
+  draw               model= 35.8%  implied= 35.1%  edge= +0.7pp  EV/$1=+0.020  @ +185
+  away               model= 38.4%  implied= 40.8%  edge= -2.4pp  EV/$1=-0.060  @ +145
+  over_2.5           model= 26.8%  implied= 33.3%  edge= -6.6pp  EV/$1=-0.197  @ +200
+  under_2.5          model= 73.2%  implied= 71.4%  edge= +1.8pp  EV/$1=+0.025  @ -250
+  btts_no            model= 63.9%  implied= 61.7%  edge= +2.2pp  EV/$1=+0.036  @ -161
+
+  -- Layer 2: fair-value menu (model prob -> fair American odds) --
+  Ivory Coast ML: 25.8% -> +287
+  Draw:         35.8% -> +179
+  Ecuador ML: 38.4% -> +161
+  DC Ivory Coast/Draw: 61.6% -> -161
+  DC Ecuador/Draw: 74.2% -> -287
+  DC Ivory Coast/Ecuador: 64.2% -> -179
+  Over/Under 1.5: 55.1% / 44.9% -> -123 / +123
+  Over/Under 2.5: 26.8% / 73.2% -> +273 / -273
+  Over/Under 3.5: 10.8% / 89.2% -> +828 / -828
+  Over/Under 4.5: 3.6% / 96.4% -> +2680 / -2680
+  Over/Under 5.5: 1.0% / 99.0% -> +9682 / -9682
+  BTTS Yes/No: 36.1% / 63.9% -> +177 / -177
+  Ivory Coast team total Over 0.5: 54.3% -> -119
+  Ivory Coast team total Over 1.5: 18.5% -> +441
+  Ivory Coast team total Over 2.5: 4.5% -> +2129
+  Ivory Coast team total Over 3.5: 0.8% -> +11795
+  Ecuador team total Over 0.5: 63.7% -> -175
+  Ecuador team total Over 1.5: 26.9% -> +272
+  Ecuador team total Over 2.5: 8.3% -> +1112
+  Ecuador team total Over 3.5: 2.0% -> +4968
+  Ivory Coast handicap -2.5: 2.0% -> +4989
+  Ivory Coast handicap -1.5: 8.5% -> +1072
+  Ivory Coast handicap -0.5: 25.8% -> +287
+  Ivory Coast handicap 0.5: 61.6% -> -161
+  Ivory Coast handicap 1.5: 84.5% -> -544
+  Top 5 correct scores: 0-0 (18.2%), 0-1 (15.2%), 1-1 (14.7%), 1-0 (11.4%), 0-2 (8.5%)
+
+======================================================================
+Sweden vs Tunisia
+======================================================================
+Layer 1 (market-calibrated): lambda=1.50, mu=0.90
+  Model 1X2: home 49.8% / draw 29.1% / away 21.1%
+  De-vig mkt 1X2: home 49.7% / draw 28.7% / away 21.6%
+  Model O/U 2.5: over 43.0% / under 57.0%
+  Model BTTS: yes 47.6% / no 52.4%
+
+  -- Edges vs quoted odds (Layer 1) --
+  home               model= 49.8%  implied= 52.4%  edge= -2.6pp  EV/$1=-0.049  @ -110
+  draw               model= 29.1%  implied= 30.3%  edge= -1.2pp  EV/$1=-0.041  @ +230
+  away               model= 21.1%  implied= 22.7%  edge= -1.6pp  EV/$1=-0.070  @ +340
+  over_2.5           model= 43.0%  implied= 45.7%  edge= -2.6pp  EV/$1=-0.058  @ +119
+  under_2.5          model= 57.0%  implied= 59.3%  edge= -2.4pp  EV/$1=-0.040  @ -146
+  btts_no            model= 52.4%  implied= 55.9%  edge= -3.5pp  EV/$1=-0.063  @ -127
+
+Layer 2 (research tilt: Sweden attack (Gyokeres/Isak) in form; Tunisia lost 5-0 to Belgium in last tune-up and fired their coach after AFCON exit, despite elite WCQ defensive record; Sweden have conceded in 11 straight matches): lambda=1.65, mu=0.97
+  Model 1X2: home 51.9% / draw 27.3% / away 20.8%
+  Model O/U 2.5: over 48.7% / under 51.3%
+  Model BTTS: yes 51.6% / no 48.4%
+
+  -- Edges vs quoted odds (Layer 2) --
+  home               model= 51.9%  implied= 52.4%  edge= -0.5pp  EV/$1=-0.010  @ -110
+  draw               model= 27.3%  implied= 30.3%  edge= -3.0pp  EV/$1=-0.099  @ +230
+  away               model= 20.8%  implied= 22.7%  edge= -1.9pp  EV/$1=-0.084  @ +340
+  over_2.5           model= 48.7%  implied= 45.7%  edge= +3.0pp  EV/$1=+0.067  @ +119
+  under_2.5          model= 51.3%  implied= 59.3%  edge= -8.1pp  EV/$1=-0.136  @ -146
+  btts_no            model= 48.4%  implied= 55.9%  edge= -7.6pp  EV/$1=-0.135  @ -127
+
+  -- Layer 2: fair-value menu (model prob -> fair American odds) --
+  Sweden ML: 51.9% -> -108
+  Draw:         27.3% -> +266
+  Tunisia ML: 20.8% -> +380
+  DC Sweden/Draw: 79.2% -> -380
+  DC Tunisia/Draw: 48.1% -> +108
+  DC Sweden/Tunisia: 72.7% -> -266
+  Over/Under 1.5: 75.1% / 24.9% -> -301 / +301
+  Over/Under 2.5: 48.7% / 51.3% -> +105 / -105
+  Over/Under 3.5: 26.9% / 73.1% -> +272 / -272
+  Over/Under 4.5: 12.6% / 87.4% -> +696 / -696
+  Over/Under 5.5: 5.1% / 94.9% -> +1874 / -1874
+  BTTS Yes/No: 51.6% / 48.4% -> -107 / +107
+  Sweden team total Over 0.5: 80.8% -> -421
+  Sweden team total Over 1.5: 49.1% -> +104
+  Sweden team total Over 2.5: 23.0% -> +335
+  Sweden team total Over 3.5: 8.6% -> +1065
+  Tunisia team total Over 0.5: 62.2% -> -164
+  Tunisia team total Over 1.5: 25.4% -> +294
+  Tunisia team total Over 2.5: 7.5% -> +1229
+  Tunisia team total Over 3.5: 1.7% -> +5674
+  Sweden handicap -2.5: 12.4% -> +709
+  Sweden handicap -1.5: 28.7% -> +248
+  Sweden handicap -0.5: 51.9% -> -108
+  Sweden handicap 0.5: 79.2% -> -380
+  Sweden handicap 1.5: 92.2% -> -1188
+  Top 5 correct scores: 1-1 (13.1%), 1-0 (10.6%), 2-0 (9.9%), 2-1 (9.6%), 0-0 (8.7%)
+
