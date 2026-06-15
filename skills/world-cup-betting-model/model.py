@@ -301,3 +301,65 @@ if __name__ == "__main__":
         "tune-up and fired their coach after AFCON exit, despite elite WCQ defensive record; "
         "Sweden have conceded in 11 straight matches",
     )
+
+    # ---- Belgium vs Egypt (Group G, Lumen Field, Seattle) ----
+    run_match(
+        "Belgium vs Egypt", "Belgium", "Egypt",
+        ml_odds=(-170, 300, 500),
+        total_line=2.5,
+        total_odds=(-110, -110),
+        extra_odds={
+            "home": -170,
+            "draw": 300,
+            "away": 500,
+            "over_2.5": -110,
+            "under_2.5": -110,
+        },
+        tilt=(0.97, 0.95),
+        tilt_desc="Lukaku is named in the squad but starts on the bench, blunting "
+        "Belgium's central scoring threat early; Salah is playing through a recent "
+        "hamstring issue and is reportedly not fully fit - both point toward a "
+        "lower-scoring game than the O/U 2.5 -110/-110 price implies",
+    )
+
+    # ---- Saudi Arabia vs Uruguay (Group H, Hard Rock Stadium, Miami) ----
+    run_match(
+        "Saudi Arabia vs Uruguay", "Saudi Arabia", "Uruguay",
+        ml_odds=(650, 330, -230),
+        total_line=2.5,
+        total_odds=(109, -133),
+        extra_odds={
+            "home": 650,
+            "draw": 330,
+            "away": -230,
+            "over_2.5": 109,
+            "under_2.5": -133,
+            "btts_yes": 110,
+        },
+        tilt=(1.08, 1.03),
+        tilt_desc="Uruguay are missing both regular starting centre-backs (Gimenez "
+        "injured, Araujo unavailable) - a significant backline weakening that should "
+        "let Saudi Arabia's attack (led by record scorer Al-Dawsari) create more than "
+        "the market implies, while Uruguay's own attack (Nunez, Valverde) is "
+        "undiminished against a Saudi side that has won just 1 of its last 7 matches",
+    )
+
+    # ---- Iran vs New Zealand (Group H, kickoff 9pm ET) ----
+    run_match(
+        "Iran vs New Zealand", "Iran", "New Zealand",
+        ml_odds=(-125, 240, 380),
+        total_line=2.5,
+        total_odds=(145, -175),
+        extra_odds={
+            "home": -125,
+            "draw": 240,
+            "away": 380,
+            "over_2.5": 145,
+            "under_2.5": -175,
+        },
+        tilt=(0.95, 0.85),
+        tilt_desc="New Zealand failed to score in 4 of their last 5 matches and are the "
+        "tournament's lowest-ranked side; 9 of Iran's last 11 World Cup matches have "
+        "gone Under 2.5 - both point toward an even lower-scoring game than the "
+        "market's already-low Under 2.5 (-175) price implies",
+    )
