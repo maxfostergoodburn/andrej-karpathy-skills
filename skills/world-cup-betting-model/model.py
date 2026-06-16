@@ -74,7 +74,7 @@ def derive_markets(grid):
     out["home"] = sum(p for (x, y), p in grid.items() if x > y)
     out["draw"] = sum(p for (x, y), p in grid.items() if x == y)
     out["away"] = sum(p for (x, y), p in grid.items() if x < y)
-    for line in (1.5, 2.5, 3.5, 4.5, 5.5):
+    for line in (1.5, 2.5, 3.0, 3.5, 4.5, 5.5):
         over = sum(p for (x, y), p in grid.items() if x + y > line)
         out[f"over_{line}"] = over
         out[f"under_{line}"] = 1 - over
@@ -362,4 +362,71 @@ if __name__ == "__main__":
         "tournament's lowest-ranked side; 9 of Iran's last 11 World Cup matches have "
         "gone Under 2.5 - both point toward an even lower-scoring game than the "
         "market's already-low Under 2.5 (-175) price implies",
+    )
+
+    # ---- France vs Senegal (Group I, MetLife Stadium, NJ) ----
+    run_match(
+        "France vs Senegal", "France", "Senegal",
+        ml_odds=(-225, 320, 550),
+        total_line=2.5,
+        total_odds=(-110, -115),
+        extra_odds={
+            "home": -225,
+            "draw": 320,
+            "away": 550,
+            "over_2.5": -110,
+            "under_2.5": -115,
+        },
+        tilt=(1.05, 0.90),
+        tilt_desc="Senegal missing multiple key attackers (Sarr, Diao) and defensive depth "
+        "(Sabaly, Jakobs out) while France have a fully-fit front line (Mbappe, Dembele, "
+        "Olise, Saliba back); Senegal's injuries hit their most dangerous counter-attacking "
+        "outlets hardest, reducing their goal threat more than the market's Senegal price implies",
+    )
+
+    # ---- Iraq vs Norway (Group I, Gillette Stadium, Foxborough) ----
+    # Calibrate to Over 2.5 (-175) rather than the 3.0 integer line (-110/-110).
+    # In soccer, exactly 3 goals = push on the 3.0 line, so -110/-110 at 3.0
+    # reflects conditional (no-push) odds, not a clean binary P(4+)=0.5 target.
+    # Over 2.5 at -175 is a clean, push-free market and is the more reliable anchor.
+    # Under 2.5 price not confirmed; +145 is an estimated pairing (standard ~4-5% vig).
+    run_match(
+        "Iraq vs Norway", "Iraq", "Norway",
+        ml_odds=(1300, 600, -460),
+        total_line=2.5,
+        total_odds=(-175, 145),
+        extra_odds={
+            "home": 1300,
+            "draw": 600,
+            "away": -460,
+            "over_2.5": -175,
+            "over_3.0": -110,
+            "under_3.0": -110,
+        },
+        tilt=(0.95, 1.10),
+        tilt_desc="Haaland making his World Cup debut alongside Odegaard in a full-strength "
+        "Norway side that has lost just 1 of its last 16 matches; Iraq offered little "
+        "offensively in qualifying and are expected to sit deep; multiple models project "
+        "Norway at 2.5+ xG, suggesting the O/U 3 market (and the 3.5 alternate line) "
+        "offers more value than the already-expensive Over 2.5 (-175)",
+    )
+
+    # ---- Argentina vs Algeria (Group J, Arrowhead Stadium, Kansas City) ----
+    run_match(
+        "Argentina vs Algeria", "Argentina", "Algeria",
+        ml_odds=(-239, 350, 600),
+        total_line=2.5,
+        total_odds=(-104, -114),
+        extra_odds={
+            "home": -239,
+            "draw": 350,
+            "away": 600,
+            "over_2.5": -104,
+            "under_2.5": -114,
+        },
+        tilt=(1.05, 0.93),
+        tilt_desc="Algeria CB Ramy Bensebaini (Borussia Dortmund, one of their best defenders) "
+        "is ruled out, weakening Algeria's backline against Argentina's attack (Messi, "
+        "Martinez leading the line per Scaloni); Argentina are at full strength and at their "
+        "peak in defense of the title",
     )
