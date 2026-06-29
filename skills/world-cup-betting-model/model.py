@@ -509,3 +509,76 @@ if __name__ == "__main__":
         "Mexico playing at home in Guadalajara with a fervent crowd; Son Heung-Min "
         "remains South Korea's primary threat - slight attacking boost to both sides",
     )
+
+    # ==================================================================
+    # ROUND OF 32 — June 29, 2026
+    # ==================================================================
+
+    # ---- Brazil vs Japan (R32, NRG Stadium, Houston) ----
+    run_match(
+        "Brazil vs Japan", "Brazil", "Japan",
+        ml_odds=(-145, 270, 420),
+        total_line=2.5,
+        total_odds=(105, -125),
+        extra_odds={
+            "home": -145,
+            "draw": 270,
+            "away": 420,
+            "over_2.5": 105,
+            "under_2.5": -125,
+            "btts_yes": -110,
+            "btts_no": -110,
+        },
+        tilt=(1.05, 0.90),
+        tilt_desc="Vinicius Jr has 4 goals in 3 group matches (tournament top scorer) and "
+        "carries Brazil's attack with Raphinha OUT (hamstring). Japan missing Kubo (knee, "
+        "OUT) — their most creative attacker — and Itakura doubtful. Brazil's defense "
+        "excellent (1 GA in 3 group games). Knockout caution factor balanced by Brazil's "
+        "attacking momentum",
+    )
+
+    # ---- Germany vs Paraguay (R32, Gillette Stadium, Foxborough) ----
+    run_match(
+        "Germany vs Paraguay", "Germany", "Paraguay",
+        ml_odds=(-278, 440, 900),
+        total_line=2.5,
+        total_odds=(-140, 106),
+        extra_odds={
+            "home": -278,
+            "draw": 440,
+            "away": 900,
+            "over_2.5": -140,
+            "under_2.5": 106,
+            "btts_yes": 100,
+            "btts_no": -127,
+        },
+        tilt=(1.03, 0.88),
+        tilt_desc="Germany scored 10 goals in the group stage. Paraguay extremely defensive "
+        "(1 GF in 3 group matches) and are further weakened: Diego Gomez SUSPENDED (penalty/"
+        "corner taker), Alderete DOUBTFUL (knee), Sosa DOUBTFUL (muscle). Paraguay have "
+        "never scored in 5 previous WC knockout matches. Almiron returns but doesn't "
+        "offset the losses",
+    )
+
+    # ---- Netherlands vs Morocco (R32, Estadio BBVA, Monterrey) ----
+    run_match(
+        "Netherlands vs Morocco", "Netherlands", "Morocco",
+        ml_odds=(120, 220, 270),
+        total_line=2.5,
+        total_odds=(120, -155),
+        extra_odds={
+            "home": 120,
+            "draw": 220,
+            "away": 270,
+            "over_2.5": 120,
+            "under_2.5": -155,
+            "btts_yes": -125,
+            "btts_no": 100,
+        },
+        tilt=(0.97, 1.05),
+        tilt_desc="These teams drew 1-1 in the group stage. Morocco fully fit with a "
+        "32-match unbeaten streak; Saibari has 3 goals in 3 WC matches. Netherlands "
+        "missing Timber (groin, tournament). Morocco's organized low-block and "
+        "devastating counter via Hakimi-Diaz should slightly suppress Dutch attacking "
+        "output while boosting Morocco's transition threat",
+    )
