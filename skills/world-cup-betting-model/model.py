@@ -430,3 +430,82 @@ if __name__ == "__main__":
         "Martinez leading the line per Scaloni); Argentina are at full strength and at their "
         "peak in defense of the title",
     )
+
+    # ---- Czechia vs South Africa (Group A, Mercedes-Benz Stadium, Atlanta) ----
+    run_match(
+        "Czechia vs South Africa", "Czechia", "South Africa",
+        ml_odds=(-130, 270, 370),
+        total_line=2.5,
+        total_odds=(110, -132),
+        extra_odds={
+            "home": -130,
+            "draw": 270,
+            "away": 370,
+            "over_2.5": 110,
+            "under_2.5": -132,
+        },
+        tilt=(1.03, 0.88),
+        tilt_desc="South Africa are missing two starters to suspension (Sithole + Zwane, "
+        "both serving one-match bans), weakening their midfield; Czechia emerged from "
+        "their opener without injury concerns in a settled 3-4-2-1 system",
+    )
+
+    # ---- Switzerland vs Bosnia (Group B, SoFi Stadium, LA) ----
+    run_match(
+        "Switzerland vs Bosnia", "Switzerland", "Bosnia",
+        ml_odds=(-175, 310, 550),
+        total_line=2.5,
+        total_odds=(100, -123),
+        extra_odds={
+            "home": -175,
+            "draw": 310,
+            "away": 550,
+            "over_2.5": 100,
+            "under_2.5": -123,
+            "btts_yes": 120,
+            "btts_no": -137,
+        },
+        tilt=(1.06, 0.82),
+        tilt_desc="Bosnia are hit hard by injuries: Dzeko (shoulder, doubtful - record scorer "
+        "and primary goal threat), Tabakovic (doubtful), Kolasinac (limped off in opener), "
+        "Celik (out for tournament). Switzerland are fully fit and should see finishing "
+        "regress positively after creating 26 shots but scoring just 1 (a pen) vs Qatar",
+    )
+
+    # ---- Canada vs Qatar (Group J, BC Place, Vancouver) ----
+    run_match(
+        "Canada vs Qatar", "Canada", "Qatar",
+        ml_odds=(-360, 470, 1000),
+        total_line=2.5,
+        total_odds=(-135, 100),
+        extra_odds={
+            "home": -360,
+            "draw": 470,
+            "away": 1000,
+            "over_2.5": -135,
+            "under_2.5": 100,
+        },
+        tilt=(1.08, 0.88),
+        tilt_desc="Alphonso Davies declared available after missing the opener (hamstring), "
+        "Larin expected to start after scoring as a sub in G1; home crowd in Vancouver "
+        "provides atmosphere boost. Qatar are winless in 7 matches (2 GF in last 5)",
+    )
+
+    # ---- Mexico vs South Korea (Group A, Estadio Akron, Guadalajara) ----
+    run_match(
+        "Mexico vs South Korea", "Mexico", "South Korea",
+        ml_odds=(105, 235, 310),
+        total_line=2.5,
+        total_odds=(135, -150),
+        extra_odds={
+            "home": 105,
+            "draw": 235,
+            "away": 310,
+            "over_2.5": 135,
+            "under_2.5": -150,
+        },
+        tilt=(1.06, 1.04),
+        tilt_desc="Both teams won their World Cup openers and showed attacking quality; "
+        "Mexico playing at home in Guadalajara with a fervent crowd; Son Heung-Min "
+        "remains South Korea's primary threat - slight attacking boost to both sides",
+    )
